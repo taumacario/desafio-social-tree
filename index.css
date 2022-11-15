@@ -10,7 +10,7 @@ body {
     border-radius: 50%;
     width: 213px;
     height: 213px;
-    border: 2px solid #BB99DD;
+    border: 2px solid orange;
     padding: 6px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -28,8 +28,18 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    color: #BB99DD;
-    margin:15px 0 0;
+    color: orange;
+    margin: 15px auto 10px;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 3px;
+    transition: background 0.3s;
+}
+
+.insta:hover{
+    background-color: #efb80873;
 }
 
 .box2 {
@@ -41,14 +51,19 @@ body {
 }
 
 a.link {
-    border: #BB99DD solid 2px;
+    border: orange solid 2px;
     width: 326px;
     height: 49px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #BB99DD;
+    color: orange;
+    transition: background 0.3s;
+}
+a.link:hover{
+    color: white;
+    background-color: orange;
 }
 
 .box3{
@@ -56,4 +71,17 @@ a.link {
     justify-content: center;
     align-items: center;
     gap: 29px;
+}
+
+.box3 a {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    transition: background 0.3s;
+}
+
+.box3 a:hover {
+   background-color: #efb80873;
 }
